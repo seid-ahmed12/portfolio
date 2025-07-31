@@ -4,11 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 :root {
   --text-color: #f5f5f5;
   --link-color: #4a76ee;
-  --bg-color:  #292e33;
+  --bg-color: #292e33;
   --second-bg-color: #250821;
 }
 
@@ -35,6 +36,7 @@ a {
   padding: 15px 10%;
   background: var(--second-bg-color);
   color: white;
+  overflow-x: hidden;
 }
 
 /* Hide checkbox */
@@ -114,7 +116,10 @@ span {
   align-items: center;
   gap: 50px;
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 80px;
+}
+.hero-section p{
+  margin-top: 15px;
 }
 .text {
   flex: 5;
@@ -122,14 +127,11 @@ span {
 section {
   padding: 80px 20px;
 }
-.welcome {
-  color: chocolate;
-}
 .name {
-  color: #0077ff;
+  color: #cbd3dc;
 }
 .frontend {
-  color: aqua;
+  color:#0077ff;
 }
 .btn {
   display: inline-flex;
@@ -142,7 +144,8 @@ section {
   padding: 5px 10px;
   border-radius: 5px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  /* margin-bottom: 10px; */
   transition: 0.1s;
 }
 .btn:hover {
@@ -168,13 +171,13 @@ section {
 .typewriter-wrapper {
   width: 42ch;
   font-family: monospace;
-  font-size: 20px;
+  font-size: 17px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 1px solid black;
-  animation: blinkCursor 0.7s step-end infinite;
+  border-right: 1px solid rgb(138, 42, 42);
+  animation: blinkCursor 0.9s step-end infinite;
   position: relative;
-  height: 1.4em;
+  height: 1.8em;
 }
 .typewriter-text {
   display: inline-block;
@@ -207,23 +210,23 @@ section {
   justify-content: center;
   align-items: center;
   grid-gap: 2em;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
-.about .image-about{
+.about .image-about {
   text-align: center;
   position: relative;
 }
-.about .image-about img{
+.about .image-about img {
   max-width: 400px;
   max-height: auto;
   border-radius: 5px;
 }
-.about-content h2{
+.about-content h2 {
   color: #4a76ee;
   font-weight: 700;
   font-size: 30px;
 }
-.about-content p{
+.about-content p {
   color: #fdfdfd;
   font-weight: 300;
 }
@@ -238,22 +241,23 @@ section {
   grid-gap: 2em;
   background: var(--bg-color);
 }
-.education h2{
+.education h2 {
   color: #4a76ee;
   font-weight: 700;
   font-size: 30px;
 }
-.education p{
+.education p {
   color: #fdfdfd;
   font-weight: 300;
 }
-.education, .services{
+.education,
+.services {
   flex: 1;
   min-width: 250px;
   padding: 1rem;
 }
-.services h2{
-   color: #4a76ee;
+.services h2 {
+  color: #4a76ee;
   font-weight: 700;
   font-size: 30px;
 }

@@ -1,0 +1,412 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --text-color: #f5f5f5;
+  --link-color: #4a76ee;
+  --bg-color:  #292e33;
+  --second-bg-color: #250821;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+a {
+  color: var(--link-color);
+  color: white;
+  text-decoration: none;
+}
+/* NAVBAR STYLE */
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: var(--second-bg-color);
+  color: white;
+}
+
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+.logo {
+  color: lightseagreen;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+span {
+  color: lightgreen;
+}
+/* Hamburger icon (only on mobile) */
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  color: white;
+}
+
+/* Desktop nav links (hide on mobile) */
+.desktop-nav {
+  display: none;
+}
+
+.desktop-nav a {
+  margin-left: 20px;
+}
+.desktop-nav a:hover {
+  color: #0077ff;
+}
+
+/* Sidebar for mobile nav */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 220px;
+  /* height: 100%; */
+  background: #222;
+  padding: 10px;
+  transition: right 0.3s ease;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Show sidebar when checkbox is checked */
+#menu-toggle:checked ~ .sidebar {
+  right: 0;
+}
+
+/* Close icon inside sidebar */
+.close {
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* HERO SECTION STYLE */
+/* Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.text {
+  flex: 5;
+}
+section {
+  padding: 80px 20px;
+}
+.welcome {
+  color: chocolate;
+}
+.name {
+  color: #0077ff;
+}
+.frontend {
+  color: aqua;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #0077ff;
+  color: white;
+  font-weight: 600;
+  margin-top: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.1s;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #4a76ee;
+  color: black;
+  border: 2px solid #0077ff;
+}
+/* left side  */
+.image {
+  flex: 2;
+  display: flex;
+  justify-content: right;
+}
+.hero-section .image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* typewriter */
+.typewriter-wrapper {
+  width: 42ch;
+  font-family: monospace;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid black;
+  animation: blinkCursor 0.7s step-end infinite;
+  position: relative;
+  height: 1.4em;
+}
+.typewriter-text {
+  display: inline-block;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(42) 1s infinite alternate;
+}
+@keyframes blinkCursor {
+  0%,
+  100% {
+    border-color: black;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 42ch;
+  }
+}
+
+/* ABOUT STYLE */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 2em;
+  background: var(--second-bg-color);
+}
+.about .image-about{
+  text-align: center;
+  position: relative;
+}
+.about .image-about img{
+  max-width: 400px;
+  max-height: auto;
+  border-radius: 5px;
+}
+.about-content h2{
+  color: #4a76ee;
+  font-weight: 700;
+  font-size: 30px;
+}
+.about-content p{
+  color: #fdfdfd;
+  font-weight: 300;
+}
+/* SECTION3: EDUCATION AND INTEREST */
+.edu-services-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-gap: 2em;
+  background: var(--bg-color);
+}
+.education h2{
+  color: #4a76ee;
+  font-weight: 700;
+  font-size: 30px;
+}
+.education p{
+  color: #fdfdfd;
+  font-weight: 300;
+}
+.education, .services{
+  flex: 1;
+  min-width: 250px;
+  padding: 1rem;
+}
+.services h2{
+   color: #4a76ee;
+  font-weight: 700;
+  font-size: 30px;
+}
+/* ====== My skills section */
+.inner {
+  padding-top: 20px;
+}
+.inner h1 {
+  font-size: 56px;
+}
+.header1 {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+.header1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 100px;
+  border-radius: 2px;
+}
+.conta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+.skill-box {
+  padding: 1rem;
+  color: #ddd;
+  cursor: pointer;
+}
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.skill-title h3 {
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.skill-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 0;
+  height: 4px;
+  border-radius: 2px 0 0 2px;
+  background-color: #59b2f4;
+  transition: 0.5s;
+}
+.skill-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0px;
+  height: 4px;
+  border-radius: 0 2px 2px 0;
+  background-color: #59b2f4;
+}
+.skill-box:hover > .skill-title::after,
+.skill-box:hover > .skill-title::before {
+  width: 35px;
+}
+.skill-box:hover .img {
+  transform: translateY(-10px);
+}
+.img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+}
+/* breakpoints */
+@media screen and (max-width: 990px) {
+  .conta {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .conta {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* MEDIA QUERY*/
+/* NAVBAR */
+@media (min-width: 768px) {
+  .hamburger {
+    display: none; /* hide hamburger on desktop */
+  }
+  .desktop-nav {
+    display: flex; /* show links horizontally */
+  }
+  .sidebar {
+    display: none; /* completely hide mobile sidebar */
+  }
+}
+/* SECTION 1: Hero */
+@media (max-width: 850px) {
+  .hero-section .text h1 h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 740px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .hero-section .image img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 600px) {
+  /* Section 1: Hero */
+  .hero-section {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .hero-section .text h1 {
+    font-size: 30px;
+  }
+  .topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}

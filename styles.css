@@ -15,7 +15,6 @@
 
 body {
   font-family: sans-serif;
-  background-color: var(--bg-color);
   background-color: #0f172a;
   color: var(--text-color);
 }
@@ -23,12 +22,10 @@ section {
   padding: 60px 20px;
 }
 a {
-  color: var(--link-color);
   color: white;
   text-decoration: none;
 }
 /* NAVBAR STYLE */
-
 .topbar {
   position: fixed;
   top: 0;
@@ -38,7 +35,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px 10%;
-  background: var(--second-bg-color);
   background-color: #0a0f1f;
   color: white;
   overflow-x: hidden;
@@ -49,13 +45,13 @@ a {
   display: none;
 }
 .logo {
-  color: lightseagreen;
+  color: #0077ff;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 span {
-  color: lightgreen;
+  color: #0077ff;
 }
 /* Hamburger icon (only on mobile) */
 .hamburger {
@@ -129,7 +125,8 @@ span {
   margin-top: 15px;
 }
 .name {
-  color: #cbd3dc;
+  color: var(--text-color);
+  font-size: 30px;
 }
 .frontend {
   color: #0077ff;
@@ -146,7 +143,6 @@ span {
   border-radius: 5px;
   margin-right: 10px;
   margin-top: 30px;
-  /* margin-bottom: 10px; */
   transition: 0.1s;
 }
 .btn:hover {
@@ -211,7 +207,6 @@ span {
   justify-content: space-between;
   align-items: center;
   grid-gap: 4em;
-  background: var(--second-bg-color);
   background-color: #1e293b;
 }
 .about .image-about {
@@ -248,8 +243,7 @@ span {
   flex-wrap: wrap;
   align-items: center;
   grid-gap: 2em;
-  background: var(--bg-color);
-  background-color: #334155;
+  background-color: #1e293b;
   color: #f8fafc;
 }
 .education h2 {
@@ -277,7 +271,9 @@ span {
   margin-bottom: 5px;
 }
 /* ====== My skills section */
-
+.skill-section{
+  background-color: #334155;
+}
 .inner h1 {
   font-size: 56px;
 }

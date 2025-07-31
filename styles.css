@@ -16,7 +16,11 @@
 body {
   font-family: sans-serif;
   background-color: var(--bg-color);
+  background-color: #0f172a;
   color: var(--text-color);
+}
+section {
+  padding: 60px 20px;
 }
 a {
   color: var(--link-color);
@@ -35,6 +39,7 @@ a {
   align-items: center;
   padding: 15px 10%;
   background: var(--second-bg-color);
+  background-color: #0a0f1f;
   color: white;
   overflow-x: hidden;
 }
@@ -67,6 +72,8 @@ span {
 
 .desktop-nav a {
   margin-left: 20px;
+  align-items: center;
+  margin-top: 12px;
 }
 .desktop-nav a:hover {
   color: #0077ff;
@@ -78,7 +85,6 @@ span {
   top: 0;
   right: -100%;
   width: 220px;
-  /* height: 100%; */
   background: #222;
   padding: 10px;
   transition: right 0.3s ease;
@@ -114,24 +120,19 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   margin-bottom: 100px;
   margin-top: 80px;
+  background-color: #0f172a;
 }
-.hero-section p{
+.hero-section p {
   margin-top: 15px;
-}
-.text {
-  flex: 5;
-}
-section {
-  padding: 80px 20px;
 }
 .name {
   color: #cbd3dc;
 }
 .frontend {
-  color:#0077ff;
+  color: #0077ff;
 }
 .btn {
   display: inline-flex;
@@ -156,25 +157,25 @@ section {
 }
 /* left side  */
 .image {
-  flex: 2;
+  flex: 1;
   display: flex;
   justify-content: right;
 }
 .hero-section .image img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   cursor: pointer;
 }
 
 /* typewriter */
 .typewriter-wrapper {
-  width: 42ch;
+  width: 27ch;
   font-family: monospace;
-  font-size: 17px;
+  font-size: 20px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 1px solid rgb(138, 42, 42);
+  border-right: 1px solid white;
   animation: blinkCursor 0.9s step-end infinite;
   position: relative;
   height: 1.8em;
@@ -184,12 +185,12 @@ section {
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3s steps(42) 1s infinite alternate;
+  animation: typing 3s steps(27) 1s infinite alternate;
 }
 @keyframes blinkCursor {
   0%,
   100% {
-    border-color: black;
+    border-color: white;
   }
   50% {
     border-color: transparent;
@@ -200,31 +201,39 @@ section {
     width: 0;
   }
   to {
-    width: 42ch;
+    width: 27ch;
   }
 }
 
 /* ABOUT STYLE */
 .about {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  grid-gap: 2em;
-  background: var(--bg-color);
+  grid-gap: 4em;
+  background: var(--second-bg-color);
+  background-color: #1e293b;
 }
 .about .image-about {
   text-align: center;
   position: relative;
 }
+.image-about,
+.text {
+  flex: 1;
+  min-width: 350px;
+  padding: 1rem;
+}
 .about .image-about img {
   max-width: 400px;
   max-height: auto;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .about-content h2 {
   color: #4a76ee;
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
 }
 .about-content p {
   color: #fdfdfd;
@@ -240,11 +249,15 @@ section {
   align-items: center;
   grid-gap: 2em;
   background: var(--bg-color);
+  background-color: #334155;
+  color: #f8fafc;
 }
 .education h2 {
   color: #4a76ee;
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
 }
 .education p {
   color: #fdfdfd;
@@ -260,11 +273,11 @@ section {
   color: #4a76ee;
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
 }
 /* ====== My skills section */
-.inner {
-  padding-top: 20px;
-}
+
 .inner h1 {
   font-size: 56px;
 }
@@ -370,7 +383,37 @@ section {
     grid-template-columns: 1fr;
   }
 }
-
+/* Contact section style */
+.contact-section {
+  background-color: #0c4a6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section h2 {
+  color: #0077ff;
+  text-align: center;
+  font-size: 30px;
+}
+.contact-section p {
+  color: #fff;
+  margin-top: 5px;
+}
+.info,
+.form {
+  display: flex;
+  flex: 2;
+}
+/* Footer section */
+.footer-section {
+  padding: 50px 10px;
+  background-color: #020617;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section h4{
+  text-align: center;
+}
 /* MEDIA QUERY*/
 /* NAVBAR */
 @media (min-width: 768px) {

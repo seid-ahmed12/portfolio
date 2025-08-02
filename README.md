@@ -12,11 +12,12 @@ This project is built as part of a hackathon challenge to showcase my skills, ed
 - Participate in a hackathon with a meaningful personal project  
 
 
-## 📁 Folder Structure
-seidahmed-portfolio/
-├── /Images/                 # All image assets 
-├──index.html                # Main HTML file
-├── style.css                # Custom CSS styles
+## portfolio/
+├── index.html
+├── style.css
+├── /images
+│ └── Apple.png, about-img.jpg, etc.
+└── README.md
 
 ## 🧑‍💻 About Me
 

@@ -133,7 +133,6 @@ Thanks to the open-source community and challenge organizers(PLP Community) who 
 
 
 Seid Ahmed
-August 02/2025.
 
 
 

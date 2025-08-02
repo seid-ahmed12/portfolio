@@ -120,7 +120,7 @@ Interest – Highlights my passion for learning technology and building innovati
 ## 🚀 Deployment
 
 This site is deployed using **Vercel**.  
-To visit it live: [https://seidahmed-dev.vercel.com](https://seidahmed-dev.vercel.app)
+To visit it live: (https://seidahmed-dev.vercel.app)
 
 
 ---

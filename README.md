@@ -3,8 +3,7 @@
 Welcome to my personal portfolio website!  
 This project is built as part of a hackathon challenge to showcase my skills, educational background and recent projects. It is built **only using HTML and CSS** — no frameworks, no JavaScript.
 
-🔗 **Live Demo:** [https://seidahmed-dev.vercel.com](https://seidahmed-dev.vercel.app)
-
+--- 
 
 ## 🎯 Goals
 
@@ -23,10 +22,14 @@ seidahmed-portfolio/
 
 I’m Seid Ahmed, a self-taught front-end developer with a background in psychiatry, transitioning into tech. I love writing clean code and solving real-world problems through the web.
 
+---
+
 ## ✨ Features
 
 - Fully responsive design (mobile, tablet, and desktop)
 - Clean and modern layout
+
+  ---
   
 -  ## 📱 Responsive Navbar
 The navigation bar is built using a custom hamburger menu with pure HTML and CSS — no JavaScript involved!
@@ -34,6 +37,8 @@ It works smoothly on all screen sizes:
 📌 Large screens: Full horizontal menu.
 📱 Small screens: Menu collapses into a hamburger icon, which toggles the navigation links vertically.
          -The design ensures a clean and accessible user experience across devices.
+
+---
          
   ## 🏠 Home Section
 The Home section of this portfolio is beautifully crafted with an engaging design:
@@ -44,6 +49,9 @@ The Home section of this portfolio is beautifully crafted with an engaging desig
 📱 Fully responsive layout, stacking elements vertically on small devices for a smooth mobile experience.
 
 🎯 A perfect first impression for visitors, showcasing both design and attention to detail.    
+
+
+---
 
 ## 👤 About Section
 ✨ The About Section is divided into three clean and responsive parts:
@@ -56,6 +64,8 @@ Interest – Highlights my passion for learning technology and building innovati
 
 🧩 Each part is styled consistently and adjusts well across screen sizes.
 
+---
+
 ## 🛠️ Skills Section
 🚀 Showcases my technical skills using beautiful card-like boxes.
 
@@ -67,6 +77,8 @@ Interest – Highlights my passion for learning technology and building innovati
 
 🧠 Includes skills like HTML5, CSS3, JavaScript, React, Node.js, and Bootstrap.
 
+ --- 
+ 
 ## 💼 Projects Section
 📁 Highlights my recent or demo web development projects.
 
@@ -75,6 +87,9 @@ Interest – Highlights my passion for learning technology and building innovati
 🧱 Layout is responsive — two cards per row on large screens, one per row on smaller devices.
 
 🔗 Easy navigation to live demos allows visitors to explore my work instantly.
+
+---
+
 ## 📬 Contact Section
 🗨️ Features a Contact Information panel (Email, Phone, Location) and a clean Contact Form.
 
@@ -84,21 +99,25 @@ Interest – Highlights my passion for learning technology and building innovati
 
 🖼️ Contact icons are added for better visuals and usability.
 
+---
+
+
 ## 🔻 Footer Section
 🔗 Contains links to my professional profiles (LinkedIn, GitHub, Telegram).
 
 🧭 Responsive layout with centered icons and copyright.
 
-🕒 Uses plain HTML for structure and CSS for styling (optional: you can manually update the year if not using JS).
+🕒 Uses plain HTML for structure and CSS for styling.
 
 🚀 Finishes the site with a clean and modern look.
 
-
+---
 
 ## 🚀 Deployment
 
 This site is deployed using **Vercel**.  
-To visit it live: [https://seidahmed-dev.vercel.com](https://seidahmed-dev.vercel.com)
+To visit it live: [https://seidahmed-dev.vercel.com](https://seidahmed-dev.vercel.app)
+
 
 ---
 
@@ -107,6 +126,11 @@ To visit it live: [https://seidahmed-dev.vercel.com](https://seidahmed-dev.verce
 ## 🙌 Acknowledgments
 
 Thanks to the open-source community and challenge organizers(PLP Community) who inspired this project.
+
+
+Seid Ahmed
+August 02/2025.
+Kombolcha, Ethiopia.
 
 
 

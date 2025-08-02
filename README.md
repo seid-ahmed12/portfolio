@@ -33,10 +33,10 @@ I’m Seid Ahmed, a self-taught front-end developer with a background in psychia
   ---
 
     ## 📱 Responsive Navbar
--The navigation bar is built using a custom hamburger menu with pure HTML and CSS — no JavaScript involved!
+The navigation bar is built using a custom hamburger menu with pure HTML and CSS — no JavaScript involved!
 It works smoothly on all screen sizes:
-#📌 Large screens: Full horizontal menu.
-#📱 Small screens: Menu collapses into a hamburger icon, which toggles the navigation links vertically.
+📌 Large screens: Full horizontal menu.
+📱 Small screens: Menu collapses into a hamburger icon, which toggles the navigation links vertically.
          -The design ensures a clean and accessible user experience across devices.
 
 ---

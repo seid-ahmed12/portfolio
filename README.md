@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This project is built as part of a hackathon challenge to showcase my skills, educational background and recent projects. It is built **only using HTML and CSS** — no frameworks, no JavaScript.
 
-🔗 **Live Demo:** [https://seidahmed-dev.vercel.com](https://seidahmed-dev.vercel.com)
+🔗 **Live Demo:** [https://seidahmed-dev.vercel.com](https://seidahmed-dev.vercel.app)
 
 
 ## 🎯 Goals

@@ -19,9 +19,12 @@ This project is built as part of a hackathon challenge to showcase my skills, ed
 │ └── Apple.png, about-img.jpg, etc.
 └── README.md
 
-## 🧑‍💻 About Me
+## 👋 About Me
 
-I’m Seid Ahmed, a self-taught front-end developer with a background in psychiatry, transitioning into tech. I love writing clean code and solving real-world problems through the web.
+Hi, I'm **Seid Ahmed** — a passionate self-taught frontend developer from Ethiopia with a background in **psychiatry**.  
+I'm transitioning into tech and love building responsive, user-friendly web interfaces using HTML, CSS, and JavaScript.  
+This portfolio is a reflection of my journey and skills so far.
+
 
 ---
 

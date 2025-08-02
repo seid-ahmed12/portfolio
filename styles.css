@@ -68,7 +68,7 @@ span {
   align-items: center;
   margin-top: 14px;
 }
-.desktop-nav .social{
+.desktop-nav .social {
   margin-top: 14px;
 }
 .desktop-nav a:hover {
@@ -251,7 +251,9 @@ span {
   gap: 2rem;
   margin-top: 2rem;
 }
-
+.edu-int-grid i {
+  color: #00bcd4;
+}
 .education,
 .services {
   flex: 1 1 300px;
@@ -270,7 +272,6 @@ span {
 /* === Text & Headings === */
 .about-section h2 {
   font-size: 2rem;
-  color: #0077ff;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
@@ -369,7 +370,7 @@ h4 {
 .skill-section {
   padding: 60px 20px;
   background: #121212;
-    background-color: #0f172a;
+  background-color: #0f172a;
 }
 
 .skills-container {
@@ -403,6 +404,7 @@ h4 {
 
 .skill-title:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .skill-title {
@@ -416,7 +418,6 @@ h4 {
 .skill-title i {
   font-size: 2rem;
   color: #007bff;
-  /* align-items: center; */
 }
 
 .skill-title h3 {
@@ -507,7 +508,7 @@ h4 {
   height: 250px;
   object-fit: cover;
 }
-.project-card img:hover{
+.project-card img:hover {
   transform: scale(1.02);
   cursor: pointer;
 }
@@ -566,22 +567,9 @@ h4 {
   }
 }
 
-/* breakpoints */
-@media screen and (max-width: 990px) {
-  .conta {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 50px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .conta {
-    grid-template-columns: 1fr;
-  }
-}
 /* Contact Section style */
 .contact-section {
   padding: 60px 20px;
-  background-color: #1e1e1e;
   color: #fff;
 }
 
@@ -608,6 +596,10 @@ h4 {
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
+}
+.contact-form input,
+textarea {
+  background: #0a0f1f;
 }
 
 .contact-info,
@@ -654,19 +646,19 @@ h4 {
   flex-direction: column;
   gap: 15px;
 }
-
+form label {
+  text-align: center;
+}
 .contact-form input,
 .contact-form textarea {
-  padding: 10px 15px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   font-size: 1rem;
 }
-
 .contact-form textarea {
   resize: vertical;
 }
-
 .contact-form button {
   background-color: #4a76ee;
   color: #fff;

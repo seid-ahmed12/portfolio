@@ -218,7 +218,7 @@ span {
 .about-section .about-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 43px;
   align-items: center;
   margin-bottom: 60px;
 }

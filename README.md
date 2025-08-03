@@ -4,12 +4,30 @@ Welcome to my personal portfolio website!
 This project is built as part of a hackathon challenge to showcase my skills, educational background and recent projects. It is built **only using HTML and CSS** — no frameworks, no JavaScript.
 
 --- 
+## 👋 About Me
+
+My name is **Seid Ahmed** — a passionate self-taught frontend developer from Ethiopia with a background in **psychiatry**.  
+I'm transitioning into tech and love building responsive, user-friendly web interfaces using HTML, CSS, and JavaScript.  
+This portfolio is a reflection of my journey and skills so far.
+
+---
+
 
 ## 🎯 Goals
 
-- Practice real-world portfolio design using only HTML and CSS  
-- Improve responsive design and layout skills  
-- Participate in a hackathon with a meaningful personal project  
+Showcase My Frontend Skills: Demonstrate my proficiency in HTML and CSS by building a fully responsive and well-structured portfolio without using JavaScript.
+
+Highlight My Transition to Tech: Present my journey from a psychiatry professional to a passionate frontend developer, emphasizing my unique background.
+
+Create a Clean User Experience: Design an intuitive, mobile-friendly interface to ensure easy navigation and readability on all devices.
+
+Build Without Frameworks: Prove my ability to create beautiful layouts and animations using only vanilla HTML and CSS.
+
+Share My Learning Path: List courses, certifications, and ongoing learning (like the Power Learn Project) to show commitment and growth.
+
+Encourage Collaboration: Include a contact section for potential employers or collaborators to connect easily.
+
+Participate Actively: Use this challenge as a stepping stone to be involved in the tech community and gain real-world feedback.
 
 
 ## portfolio/
@@ -18,22 +36,9 @@ This project is built as part of a hackathon challenge to showcase my skills, ed
 ├── /images
 │ └── Apple.png, about-img.jpg, etc.
 └── README.md
-
-## 👋 About Me
-
-Hi, I'm **Seid Ahmed** — a passionate self-taught frontend developer from Ethiopia with a background in **psychiatry**.  
-I'm transitioning into tech and love building responsive, user-friendly web interfaces using HTML, CSS, and JavaScript.  
-This portfolio is a reflection of my journey and skills so far.
-
+└── Resume(CV) 
 
 ---
-
-## ✨ Features
-
-- Fully responsive design (mobile, tablet, and desktop)
-- Clean and modern layout
-
-  ---
 
     ## 📱 Responsive Navbar
 The navigation bar is built using a custom hamburger menu with pure HTML and CSS — no JavaScript involved!
@@ -43,12 +48,13 @@ It works smoothly on all screen sizes:
          -The design ensures a clean and accessible user experience across devices.
 
 ---
-         
+
+
   ## 🏠 Home Section
 The Home section of this portfolio is beautifully crafted with an engaging design:
 
 ✨ Features a rounded profile picture and intro text placed side by side on larger screens.
-💬 Includes a typewriter animation effect for the Frontend Developer heading, adding a dynamic touch.
+💬 Includes a typewriter animation effect for the **Frontend Developer** heading, adding a dynamic touch.
 
 📱 Fully responsive layout, stacking elements vertically on small devices for a smooth mobile experience.
 
@@ -58,6 +64,7 @@ The Home section of this portfolio is beautifully crafted with an engaging desig
 ---
 
 ## 👤 About Section
+
 ✨ The About Section is divided into three clean and responsive parts:
 
 About Me – Brief introduction about who I am and my journey from Psychiatry to Tech.
@@ -79,11 +86,12 @@ Interest – Highlights my passion for learning technology and building innovati
 
 🖱️ Smooth hover effects and transitions make the section visually engaging and interactive.
 
-🧠 Includes skills like HTML5, CSS3, JavaScript, React, Node.js, and Bootstrap.
+🧠 Includes skills like HTML5, CSS3, JavaScript, React, Node.js, and Tailwind CSS.
 
  --- 
  
 ## 💼 Projects Section
+
 📁 Highlights my recent or demo web development projects.
 
 🖼️ Each project card includes a project image, title, short description, and a demo link.
@@ -95,9 +103,10 @@ Interest – Highlights my passion for learning technology and building innovati
 ---
 
 ## 📬 Contact Section
+
 🗨️ Features a Contact Information panel (Email, Phone, Location) and a clean Contact Form.
 
-🧠 Fully responsive design using only HTML and CSS — no frameworks or JavaScript.
+🧠 Fully responsive design using only HTML and CSS.
 
 💌 Form UI includes input fields for name, email, and message with smooth styling.
 
@@ -107,6 +116,7 @@ Interest – Highlights my passion for learning technology and building innovati
 
 
 ## 🔻 Footer Section
+
 🔗 Contains links to my professional profiles (LinkedIn, GitHub, Telegram).
 
 🧭 Responsive layout with centered icons and copyright.
@@ -119,9 +129,8 @@ Interest – Highlights my passion for learning technology and building innovati
 
 ## 🚀 Deployment
 
-This site is deployed using **Vercel**.  
+This site is successffully deployed using **Vercel**.  
 To visit it live: (https://seidahmed-dev.vercel.app)
-
 
 ---
 
